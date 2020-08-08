@@ -7,6 +7,6 @@ import me.ehp246.aufrest.api.annotation.ByRest;
  *
  */
 @ByRest("${postman.echo.base}/get")
-public interface EchoGetProxy {
+public interface GetProxy {
 	EchoResponseBody getAsEchoBody();
 }
