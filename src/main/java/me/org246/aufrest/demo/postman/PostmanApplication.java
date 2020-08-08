@@ -24,7 +24,6 @@ import me.ehp246.aufrest.api.rest.HttpUtils;
 @SpringBootApplication
 @EnableByRest
 class PostmanApplication {
-
 	public static void main(final String[] args) {
 		SpringApplication.run(PostmanApplication.class, args);
 	}
