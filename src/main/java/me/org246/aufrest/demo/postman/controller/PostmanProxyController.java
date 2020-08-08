@@ -16,7 +16,7 @@ import me.org246.aufrest.demo.postman.GetProxy;
  *
  */
 @RestController
-public class EchoController {
+public class PostmanProxyController {
 	@Autowired
 	GetProxy get;
 
