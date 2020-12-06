@@ -1,4 +1,4 @@
-package me.org246.aufrest.demo.postman;
+package me.ehp246.aufrest.demo.postman;
 
 import java.util.Map;
 
@@ -9,7 +9,7 @@ public interface EchoResponseBody {
 
 	String getUrl();
 
-	String getData();
+	Map<String, Object> getData();
 
-	String getJson();
+	Map<String, Object> getJson();
 }
